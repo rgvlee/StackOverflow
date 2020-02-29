@@ -42,7 +42,9 @@ namespace Question60078465.RazorPages.TagHelpers
 
             (_htmlHelper as IViewContextAware).Contextualize(ViewContext);
 
-            output.Content.SetHtmlContent(_htmlHelper.Editor(For.Name, Template));
+            var customHtmlHelper = _htmlHelper as CustomHtmlHelper;
+            var content = customHtmlHelper.CustomGenerateEditor(For.ModelExplorer, For.Metadata.DisplayName ?? For.Metadata.PropertyName, Template, null);
+            output.Content.SetHtmlContent(content);
 
             await Task.CompletedTask;
         }

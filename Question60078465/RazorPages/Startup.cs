@@ -1,9 +1,11 @@
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Question60078465.RazorPages.TagHelpers;
 using Question60078465.RazorPages.Validators;
 
 namespace Question60078465.RazorPages
@@ -20,6 +22,8 @@ namespace Question60078465.RazorPages
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<IHtmlHelper, CustomHtmlHelper>();
+
             services.AddControllersWithViews();
 
             services.AddRazorPages()
