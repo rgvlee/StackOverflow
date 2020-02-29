@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Question60078465.MVC", "MVC\Question60078465.MVC.csproj", "{D69B1E42-7A17-4FCE-8D4E-979163B8AE98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentValidation", "..\..\FluentValidation\src\FluentValidation\FluentValidation.csproj", "{67F9E66B-4506-46C9-9693-A56F1713F23D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentValidation.AspNetCore", "..\..\FluentValidation\src\FluentValidation.AspNetCore\FluentValidation.AspNetCore.csproj", "{7BB25DB3-8404-4B19-BD50-2AF036FF8027}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentValidation.DependencyInjectionExtensions", "..\..\FluentValidation\src\FluentValidation.DependencyInjectionExtensions\FluentValidation.DependencyInjectionExtensions.csproj", "{90DEAF20-722C-4DB4-BDCD-FF00333057B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question60078465.RazorPages", "RazorPages\Question60078465.RazorPages.csproj", "{8BE32EC4-D386-4F50-AA16-A2E2378CC54B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D69B1E42-7A17-4FCE-8D4E-979163B8AE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D69B1E42-7A17-4FCE-8D4E-979163B8AE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D69B1E42-7A17-4FCE-8D4E-979163B8AE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D69B1E42-7A17-4FCE-8D4E-979163B8AE98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F9E66B-4506-46C9-9693-A56F1713F23D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F9E66B-4506-46C9-9693-A56F1713F23D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F9E66B-4506-46C9-9693-A56F1713F23D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F9E66B-4506-46C9-9693-A56F1713F23D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB25DB3-8404-4B19-BD50-2AF036FF8027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB25DB3-8404-4B19-BD50-2AF036FF8027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB25DB3-8404-4B19-BD50-2AF036FF8027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB25DB3-8404-4B19-BD50-2AF036FF8027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90DEAF20-722C-4DB4-BDCD-FF00333057B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90DEAF20-722C-4DB4-BDCD-FF00333057B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90DEAF20-722C-4DB4-BDCD-FF00333057B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90DEAF20-722C-4DB4-BDCD-FF00333057B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE32EC4-D386-4F50-AA16-A2E2378CC54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE32EC4-D386-4F50-AA16-A2E2378CC54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE32EC4-D386-4F50-AA16-A2E2378CC54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE32EC4-D386-4F50-AA16-A2E2378CC54B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19615761-610F-43AC-AA35-87509311E3E0}
+	EndGlobalSection
+EndGlobal

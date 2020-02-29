@@ -1,0 +1,9 @@
+﻿@model string
+<div class="form-group">
+    <label asp-for="@Model" class="control-label" style="color: blue; font-weight: bold;"></label>
+    <span asp-description-for="@Model" class="small"></span>
+    <div class="input-group">
+        <input asp-for="@Model" class="form-control" style="background-color: yellow;"/>
+    </div>
+    <span asp-validation-for="@Model" class="text-danger" style="color: green !important; font-style: italic;"></span>
+</div>
