@@ -19,11 +19,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Question59741796", "Questio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Question60452790", "Question60452790\Question60452790.csproj", "{910360B3-5C49-47DF-8642-9B1997C84F75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question60470133", "Question60470133\Question60470133.csproj", "{80D44535-7533-4AF0-B917-28BAC109009E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Question60470133", "Question60470133\Question60470133.csproj", "{80D44535-7533-4AF0-B917-28BAC109009E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Question59741796", "Question59741796", "{2CC256A0-F1C4-4C35-AB0F-8439F532FE85}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Question60470133", "Question60470133", "{E42C62F1-FEAF-497C-813C-B2069A4B6657}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9E51F843-4431-4595-9348-415D6A01C345}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
