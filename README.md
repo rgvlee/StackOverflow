@@ -31,3 +31,9 @@ Fluent validation rules for child properties and how to test them using the `Sho
 <https://stackoverflow.com/questions/60470133/fluent-validations-showing-old-error-messages>
 
 Shows how a string with fluent validation not null not empty rules can raise two error messages when the string is null.
+
+## Question60404033
+
+<https://stackoverflow.com/questions/60404033/fluentvalidation-to-find-overlaping-datetimes-within-a-list>
+
+Working implementation of FluentValidation Must and Custom extensions/custom validators.
