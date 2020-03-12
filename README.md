@@ -37,3 +37,9 @@ Shows how a string with fluent validation not null not empty rules can raise two
 <https://stackoverflow.com/questions/60404033/fluentvalidation-to-find-overlaping-datetimes-within-a-list>
 
 Working implementation of FluentValidation Must and Custom extensions/custom validators.
+
+## Question60639055
+
+<https://stackoverflow.com/questions/60639055/how-can-i-unit-test-a-greater-than-validation-created-with-fluent-validation>
+
+Basic FluentValidation unit test examples.
