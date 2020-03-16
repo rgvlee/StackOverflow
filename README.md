@@ -43,3 +43,9 @@ Working implementation of FluentValidation Must and Custom extensions/custom val
 <https://stackoverflow.com/questions/60639055/how-can-i-unit-test-a-greater-than-validation-created-with-fluent-validation>
 
 Basic FluentValidation unit test examples.
+
+## Question60684578
+
+<https://stackoverflow.com/questions/60684578/cannot-test-iloggert-received-with-nsubstitute>
+
+Verifying Moq and NSubstitute ILogger invocations.
