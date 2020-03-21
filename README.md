@@ -49,3 +49,9 @@ Basic FluentValidation unit test examples.
 <https://stackoverflow.com/questions/60684578/cannot-test-iloggert-received-with-nsubstitute>
 
 Verifying Moq and NSubstitute ILogger invocations.
+
+## Question60650516
+
+FluentValidation validator being invoked by an API controller action with a `List<T>` parameter.
+
+<https://stackoverflow.com/questions/60650516/fluent-validation-validator-for-pure-collection>
