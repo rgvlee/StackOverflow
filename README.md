@@ -52,6 +52,12 @@ Verifying Moq and NSubstitute ILogger invocations.
 
 ## Question60650516
 
+<https://stackoverflow.com/questions/60650516/fluent-validation-validator-for-pure-collection>
+
 FluentValidation validator being invoked by an API controller action with a `List<T>` parameter.
 
-<https://stackoverflow.com/questions/60650516/fluent-validation-validator-for-pure-collection>
+## Question60842761
+
+<https://stackoverflow.com/questions/60842761/call-mock-returns-without-mock-setup/60849644#60849644>
+
+Basic Moq default value provider implementation.
