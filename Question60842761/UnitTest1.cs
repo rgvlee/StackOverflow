@@ -17,6 +17,10 @@ namespace Question60842761
         ObjectToReturn MyMethod(string parameter2);
 
         ObjectToReturn MyMethod(int parameter1, int parameter2);
+
+        ObjectToReturn AnotherMethod();
+
+        int AValueTypeMethod();
     }
 
     public class SelectiveDefaultValueProvider : DefaultValueProvider
@@ -41,7 +45,7 @@ namespace Question60842761
                 return _returns;
             }
 
-            return default;
+            return type.IsValueType ? Activator.CreateInstance(type) : null;
         }
     }
 
@@ -57,12 +61,16 @@ namespace Question60842761
             var result1 = mocked.MyMethod(1);
             var result2 = mocked.MyMethod(1, 2);
             var result3 = mocked.MyMethod("asdf");
+            var result4 = mocked.AnotherMethod();
+            var result5 = mocked.AValueTypeMethod();
 
             Assert.Multiple(() =>
             {
                 Assert.That(result1, Is.SameAs(objectToReturn));
                 Assert.That(result2, Is.SameAs(objectToReturn));
                 Assert.That(result3, Is.SameAs(objectToReturn));
+                Assert.That(result4, Is.Null);
+                Assert.That(result5, Is.TypeOf<int>());
             });
         }
     }
