@@ -154,7 +154,7 @@ namespace Question60871574
         }
 
         [Test]
-        public async Task ValidateAsync_InvalidDto_NoErrors()
+        public async Task ValidateAsync_InvalidDto_ReturnsErrors()
         {
             var fixture = new Fixture();
             var items = fixture.CreateMany<Foo>();
@@ -170,7 +170,7 @@ namespace Question60871574
         }
 
         [Test]
-        public void Validate_InvalidDto_NoErrors()
+        public void Validate_InvalidDto_ReturnsErrors()
         {
             var fixture = new Fixture();
             var items = fixture.CreateMany<Foo>();
