@@ -61,3 +61,9 @@ FluentValidation validator being invoked by an API controller action with a `Lis
 <https://stackoverflow.com/questions/60842761/call-mock-returns-without-mock-setup/60849644#60849644>
 
 Basic Moq default value provider implementation.
+
+## Question60871574
+
+<https://stackoverflow.com/questions/60871574/how-to-await-method-in-propertyvalidators-overridden-isvalid>
+
+Working implementation of a FluentValidation async property validator.
