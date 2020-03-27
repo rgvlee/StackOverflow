@@ -92,9 +92,17 @@ namespace Question60871574
             try
             {
                 //Simulate multiple threads
-                var invocation1 = _fooRepository.GetByIdAsync(idToValidate, cancellation);
-                var invocation2 = _fooRepository.GetByIdAsync(idToValidate, cancellation);
-                var invocation3 = await _fooRepository.GetByIdAsync(idToValidate, cancellation);
+#pragma warning disable 4014
+                Task.Run(() =>
+#pragma warning restore 4014
+                    {
+                        Console.WriteLine("Time waster start");
+                        Thread.Sleep(2500);
+                        Console.WriteLine("Time waster end");
+                    },
+                    cancellation);
+
+                var foo = await _fooRepository.GetByIdAsync(idToValidate, cancellation);
 
                 return true;
             }
