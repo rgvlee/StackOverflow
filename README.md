@@ -67,3 +67,9 @@ Basic Moq default value provider implementation.
 <https://stackoverflow.com/questions/60871574/how-to-await-method-in-propertyvalidators-overridden-isvalid>
 
 Working implementation of a FluentValidation async property validator.
+
+## Question60868572
+
+<https://stackoverflow.com/questions/60868572/fluent-validator-for-when-another-property-is-true>
+
+Basic FluentValidation `When` clause example.
