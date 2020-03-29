@@ -58,7 +58,7 @@ FluentValidation validator being invoked by an API controller action with a `Lis
 
 ## Question60842761
 
-<https://stackoverflow.com/questions/60842761/call-mock-returns-without-mock-setup/60849644#60849644>
+<https://stackoverflow.com/questions/60842761/call-mock-returns-without-mock-setup>
 
 Basic Moq default value provider implementation.
 
@@ -73,3 +73,9 @@ Working implementation of a FluentValidation async property validator.
 <https://stackoverflow.com/questions/60868572/fluent-validator-for-when-another-property-is-true>
 
 Basic FluentValidation `When` clause example.
+
+## Question60893578
+
+<https://stackoverflow.com/questions/60893578/how-to-return-a-specific-property-in-the-message-of-a-ruleforeach-validation-us>
+
+FluentValidation: How to inject instance properties into a custom error message.
