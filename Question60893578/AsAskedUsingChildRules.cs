@@ -47,9 +47,9 @@ namespace Question60893578.AsAskedUsingChildRules
     public class Tests
     {
         [Test]
-        public void TestProperties_PropertyWithNullName_HasCustomError()
+        public void TestProperties_PropertyWithEmptyName_HasCustomError()
         {
-            var property = new Properties(null);
+            var property = new Properties(string.Empty);
             var testClass = new TestClass(new[] { property });
 
             var validator = new TestClassValidator();
@@ -60,9 +60,9 @@ namespace Question60893578.AsAskedUsingChildRules
         }
 
         [Test]
-        public void TestProperties_PropertyWithEmptyName_HasCustomError()
+        public void TestProperties_PropertyWithNullName_HasCustomError()
         {
-            var property = new Properties(string.Empty);
+            var property = new Properties(null);
             var testClass = new TestClass(new[] { property });
 
             var validator = new TestClassValidator();

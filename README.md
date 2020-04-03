@@ -79,3 +79,9 @@ Basic FluentValidation `When` clause example.
 <https://stackoverflow.com/questions/60893578/how-to-return-a-specific-property-in-the-message-of-a-ruleforeach-validation-us>
 
 FluentValidation: How to inject instance properties into a custom error message.
+
+## Question60972371
+
+<https://stackoverflow.com/questions/60972371/how-do-you-unit-test-loggermessage-define-in-net-core-3-1-with-moq>
+
+Verifying a LoggerMessage.Define() delegate using Moq.
