@@ -85,3 +85,9 @@ FluentValidation: How to inject instance properties into a custom error message.
 <https://stackoverflow.com/questions/60972371/how-do-you-unit-test-loggermessage-define-in-net-core-3-1-with-moq>
 
 Verifying a LoggerMessage.Define() delegate using Moq.
+
+## Question61138469
+
+<https://stackoverflow.com/questions/61138469/getting-logger-out-in-while-doing-unit-test-using-xunit-and-net-core-3-1>
+
+Customer logger provider for xUnit.
