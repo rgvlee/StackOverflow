@@ -49,6 +49,26 @@ namespace Question61408448
                 Assert.That(result.Single(), Is.EqualTo(requestRolesList.Last()));
             });
         }
+        
+        [Test]
+        public async Task Test2()
+        {
+            var requestRoles = new List<RequestRole>();
+            requestRoles.Add(new RequestRole { Id = 0, RequestOperator = new RequestOperator { Id = 1 } });
+            requestRoles.Add(new RequestRole { Id = 1, RequestOperator = new RequestOperator { Id = 2 } });
+
+            var sessionMock = new Mock<ISession>();
+            sessionMock.Setup(s => s.Query<RequestRole>()).Returns(new TestingQueryable<RequestRole>(requestRoles.AsQueryable()));
+            var query = sessionMock.Object.Query<RequestRole>();
+
+            var result = await query.Where(x => x.Id != 0).ToListAsync();
+
+            Assert.Multiple(() =>
+            {
+                Assert.That(result.Count, Is.EqualTo(1));
+                Assert.That(result.Single(), Is.EqualTo(requestRoles.Last()));
+            });
+        }
     }
 
     public class RequestRole
