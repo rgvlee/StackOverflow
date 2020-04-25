@@ -91,3 +91,9 @@ Verifying a LoggerMessage.Define() delegate using Moq.
 <https://stackoverflow.com/questions/61138469/getting-logger-out-in-while-doing-unit-test-using-xunit-and-net-core-3-1>
 
 Customer logger provider for xUnit.
+
+## Question61408448
+
+<https://stackoverflow.com/questions/61408448/how-to-mock-nhibernate-tolistasync-in-unit-test-with-moq>
+
+Mocking the NHibernate INhQueryProvider query provider using Moq. 
