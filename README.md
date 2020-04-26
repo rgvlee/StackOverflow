@@ -96,4 +96,10 @@ Customer logger provider for xUnit.
 
 <https://stackoverflow.com/questions/61408448/how-to-mock-nhibernate-tolistasync-in-unit-test-with-moq>
 
-Mocking the NHibernate INhQueryProvider query provider using Moq. 
+Mocking the NHibernate INhQueryProvider query provider using Moq.
+
+## Question61426094
+
+<https://stackoverflow.com/questions/61426094/xunit-mocked-method-for-the-async-list-returns-null>
+
+Testing nested async method invocation using xUnit and NSubstitute. 
